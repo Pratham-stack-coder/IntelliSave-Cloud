@@ -1,74 +1,56 @@
-IntelliSave Cloud 🌐⚡
-A cloud-based AI-powered home energy management platform that helps users monitor, control, and optimize appliance usage — from anywhere, anytime.
+IntelliSave-Cloud
+Smart Energy Saver & Appliance Control System (Cloud-Based)
+
+📌 Overview
+IntelliSave-Cloud is a fully software-based platform that helps users monitor, control, and optimize their appliance usage.
+It provides real-time energy tracking, manual control, and AI-powered energy-saving suggestions — all accessible via a web dashboard.
 
 🚀 Goals
-Reduce household energy consumption.
+Reduce energy wastage through data-driven insights.
 
-Give users full control over their appliances remotely.
+Enable remote control of appliances through the cloud.
 
-Provide AI-driven suggestions to save energy costs.
+Provide users with easy-to-understand energy usage reports.
 
-Enable data-driven insights with energy usage analytics.
+Introduce AI-based optimization recommendations.
 
 ✨ Features (MVP)
-User Login & Dashboard – Secure authentication with personalized dashboard.
+🔑 User Login & Dashboard – Secure login with personalized dashboard.
 
-Live Appliance List – See all connected devices in real-time.
+⚡ Live Appliance List – See connected appliances in real time.
 
-Manual ON/OFF Control – Control appliances instantly from the UI.
+🎛 Manual ON/OFF Control – Control appliances from anywhere via UI.
 
-Energy Usage History Graph – Track past consumption patterns.
+📊 Energy Usage History Graph – Visualize consumption trends.
 
-AI Energy-Saving Suggestions – Get smart tips to reduce power usage (simulated in MVP).
+🤖 AI Energy-Saving Suggestions – Recommendations for reducing usage (simulated in MVP).
 
-🛠 Roadmap
-Phase 1 – MVP (Basic Functionalities)
- User authentication system.
+🛠 Tech Stack
+Frontend: HTML, CSS, JavaScript (React/Vanilla)
+Backend: Node.js + Express
+Database: MongoDB (Cloud-based)
+AI Service: Python (Flask/FastAPI) – Simulated ML model
+Hosting: GitHub Pages / Render / Railway
 
- Dashboard UI with appliance list.
+📂 Folder Structure
+bash
+Copy code
+IntelliSave-Cloud/
+│
+├── frontend/      # Web UI files (HTML, CSS, JS)
+├── backend/       # API and authentication
+├── ai-service/    # AI suggestion engine (Python)
+└── README.md
+📅 Roadmap
+✅ Create GitHub repo and initial structure.
 
- Manual ON/OFF control via web interface.
+⏳ Build frontend dashboard UI.
 
- Energy usage tracking (graph).
+⏳ Add backend API for appliances & energy tracking.
 
- Mock AI suggestion system.
+⏳ Connect AI suggestion engine (simulation first).
 
-Phase 2 – Enhanced Features
- Real hardware integration via IoT (ESP32/Arduino).
+⏳ Deploy to cloud.
 
- Real-time cloud database updates (Firebase/MongoDB).
-
- Detailed usage analytics with filtering & export.
-
- AI model for genuine energy optimization.
-
-Phase 3 – Advanced
- Mobile app (React Native/Flutter).
-
- Voice control (Google Assistant/Alexa integration).
-
- Automated control schedules based on patterns.
-
-📦 Tech Stack (Planned)
-Frontend: React.js / Next.js
-
-Backend: Node.js / Express.js
-
-Database: MongoDB / Firebase
-
-👥 Team Roles (For 6 Members)
-Backend Developer – API, authentication, database.
-
-Frontend Developer – Dashboard UI/UX.
-
-Data Scientist – AI suggestion model.
-
-Cloud Engineer – Deployment & hosting.
-
-Database Manager – Data structure & queries.
-
-Tester & Documentation Lead – QA, bug fixes, README updates.
-
-IoT Hardware: ESP32 / Arduino with WiFi module
-
-AI: Python (TensorFlow / scikit-learn) for energy-saving suggestions
+📜 License
+This project is licensed under the MIT License – see LICENSE file for details.
